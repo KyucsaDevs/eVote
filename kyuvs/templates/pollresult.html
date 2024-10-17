@@ -1,0 +1,28 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<!--top-bar nav-->
+<nav class="navbar navbar-expand-sm navbar-dark bg-light nav-justified">
+    <a class="navbar-brand "><img src="static\images\logo.png" alt="University Logo" style="width:60px;"></a>
+   <div class="mx-auto"><b>KYAMBOGO UNIVERSITY ELECTRONIC VOTING SYSTEM (KYU E-VS)</b></div>
+   <div class="menu-xl-right m-2"><a class="">Support</a></div>
+   <div class="menu-xl-right m-2"><a class="p-2 rounded border-danger " href="{{ url_for('logout')}} ">LogOut</a></div>
+ </nav>
+ <!--Displaying the candidates-->
+
+
+
+    <div class="media">
+      <img class="align-self-center mr-3" src="..." alt="Generic placeholder image">
+      <div class="media-body">
+        <h5 class="mt-0">Center-aligned media</h5>
+        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+        <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+      </div>
+    </div>
+
+
+
+
+
+{% endblock %}
